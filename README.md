@@ -1,10 +1,10 @@
-#Description
+# Description
 
 Shows some common environment and CLI overrides that are not illustrated at `nconf`
 
-#Examples
+# Examples
 
-##z1
+## Example z1
 Running `npm run z1` outputs:
 
 ```
@@ -22,7 +22,7 @@ z as nconf.get(z): 3
 process.env.z: 2
 ```
 
-##z2
+## Example z2
 Running `npm run z2` outputs:
 
 ```
@@ -40,7 +40,7 @@ z as nconf.get(z): 2
 process.env.z: 2
 ```
 
-##z3
+## Example z3
 Running `npm run z3` outputs:
 ```
 > nconf-examples@1.0.0 z1 /Users/jburke/Src/dev-potatopankakes/nconf-examples
@@ -57,7 +57,7 @@ z as nconf.get(z): 1
 process.env.z: undefined
 ```
 
-##xy1
+## Example xy1
 Running `npm run xy1` outputs:
 
 ```
@@ -68,7 +68,7 @@ sh: x:y=2: command not found
 See that Bash will not accept env vars w/colons? (or anything other than underscore and alphanumerics)
 ```
 
-##xy2
+## Example xy2
 Running `npm run xy2` outputs:
 
 ```
@@ -81,7 +81,7 @@ See that Bash will not accept env vars w/colons? (or anything other than undersc
 
 This is not illustrating anything about `nconf`, as `nconf` would require the colon separators... but I include it for illustration purposes.
 
-##xy3
+## Example xy3
 Running `npm run xy3` outputs:
 
 ```
@@ -99,7 +99,7 @@ z as nconf.get(z): 1
 process.env.z: undefined
 ```
 
-##xy4
+## Example xy4
 Running `npm run xy4` outputs:
 
 ```
@@ -117,7 +117,7 @@ z as nconf.get(z): 1
 process.env.z: undefined
 ```
 
-##xy5
+## Example xy5
 Running `npm run xy5` outputs:
 
 ```
