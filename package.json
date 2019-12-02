@@ -1,0 +1,36 @@
+{
+  "name": "nconf-examples",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "z1": "z=2 node src/index.js --z 3",
+    "z2": "z=2 node src/index.js",
+    "z3": "node src/index.js",
+    "xy1": "x:y=2 node src/index.js --x:y 3 || echo 'See that Bash will not accept env vars w/colons? (or anything other than underscore and alphanumerics)'",
+    "xy2": "x.y=2 node src/index.js --x:y 3 || echo 'See that Bash will not accept env vars w/colons? (or anything other than underscore and alphanumerics)'",
+    "xy3": "env 'x:y=2' node src/index.js --x:y 3",
+    "xy4": "env 'x:y=2' node src/index.js",
+    "xy5": "env 'x.y=2' node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/potatopankakes/nconf-examples.git"
+  },
+  "keywords": [
+    "nodejs",
+    "nconf",
+    "configuration"
+  ],
+  "author": "Jeff Burke",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/potatopankakes/nconf-examples/issues"
+  },
+  "homepage": "https://github.com/potatopankakes/nconf-examples#readme",
+  "dependencies": {
+    "nconf": "^0.10.0"
+  }
+}
+
+
